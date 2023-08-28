@@ -1,5 +1,10 @@
-console.log("jbhjbjkbkjbkj");
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
+const express = require("express");
+
+const app = express();
+
+app.get('/saurab',(req,res) => {
+    res.json({name: "saurabh hhbhhb"})
+})
+app.listen(5000,() => {
+    console.log("running on port 5000")
+})
